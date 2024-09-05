@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "MediCare",
+    "slug": "medicare",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "platforms": ["ios", "android"],
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "bundleIdentifier": "com.salmancheema1234.MediCare"
+    },
+    "android": {
+      "package": "com.salmancheema1234.MediCare"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ef3c5ce6-f84a-44a1-89aa-1d666137977e"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 30000,
+      "checkAutomatically": "ON_LOAD",
+      "url": "https://u.expo.dev/ef3c5ce6-f84a-44a1-89aa-1d666137977e"
+    }
+  }
+}
