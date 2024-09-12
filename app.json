@@ -6,7 +6,7 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "automatic",
-    "platforms": ["ios", "android"],
+
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -16,6 +16,7 @@
     "ios": {
       "bundleIdentifier": "com.salmancheema1234.MediCare"
     },
+
     "android": {
       "package": "com.salmancheema1234.MediCare"
     },
@@ -24,7 +25,7 @@
     },
     "extra": {
       "eas": {
-        "projectId": "ef3c5ce6-f84a-44a1-89aa-1d666137977e"
+        "projectId": "38178641-cc59-4930-aff5-37f260962c39"
       }
     },
     "runtimeVersion": {
@@ -34,6 +35,7 @@
       "fallbackToCacheTimeout": 30000,
       "checkAutomatically": "ON_LOAD",
       "url": "https://u.expo.dev/ef3c5ce6-f84a-44a1-89aa-1d666137977e"
-    }
+    },
+    "scheme": "myapp"
   }
 }
