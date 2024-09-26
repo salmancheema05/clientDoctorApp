@@ -41,6 +41,23 @@ const DefaultButton: React.FC<ButtonProps> = ({
         ...textStyle,
       },
     },
+    Continue: {
+      name: "Continue",
+      style: {
+        backgroundColor: "hsla(212, 52%, 23%, 1)",
+        width: "50%",
+        color: "white",
+        padding: 10,
+        borderRadius: 40,
+      },
+      textStyle: {
+        textTransform: "none",
+        fontSize: 18,
+        alignSelf: "center",
+        color: "white",
+        ...textStyle,
+      },
+    },
     Booking: {
       name: "Booking",
       style: {

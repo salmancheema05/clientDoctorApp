@@ -63,6 +63,20 @@ export const loginapi = createApi({
         },
       }),
     }),
+    userLoginByGoogle: builder.mutation<any, any>({
+      query: (params) => ({
+        url: "googleuserdatasave",
+        method: "POST",
+        body: params,
+      }),
+    }),
+    userUpdateGenderAndUserStatus: builder.mutation<any, any>({
+      query: (params) => ({
+        url: "updategenderanduserstatus",
+        method: "POST",
+        body: params,
+      }),
+    }),
   }),
 });
 export const {
@@ -70,4 +84,6 @@ export const {
   useUserLogoutMutation,
   useRefreshTokenMutation,
   useUserSignUpMutation,
+  useUserLoginByGoogleMutation,
+  useUserUpdateGenderAndUserStatusMutation,
 } = loginapi;

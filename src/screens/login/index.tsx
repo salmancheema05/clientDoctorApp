@@ -54,7 +54,7 @@ const Login = () => {
       </View>
       <DefaultSection>
         <GoogleLogin />
-        <FaceBookLogin />
+        {/* <FaceBookLogin /> */}
         <View
           style={{
             alignItems: "center",
